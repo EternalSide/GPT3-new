@@ -44,6 +44,12 @@ margin-right:2rem;
         cursor: pointer;
     }
 
+    .gpt3__navbar-links_container p:hover{
+    /* transition: .3s;
+    opacity:.8; */
+    text-decoration: underline;
+}
+
     .gpt3__navbar-sign button,
     .gpt3__navbar-menu_container button{
         padding:0.5rem 1rem;
@@ -59,6 +65,20 @@ margin-right:2rem;
         outline: none;
         cursor: pointer;
     }
+
+
+   .gpt3__navbar-sign button:hover{
+    transition: .3s;
+    opacity:.9;
+}
+
+.gpt3__navbar-sign p:hover{
+    transition: .3s;
+    opacity:.8;
+}
+.gpt3__navbar-sign button:active{
+  transform: translate(0px,2px);
+}
 
     .gpt3__navbar-menu{
         margin-left:1rem;
