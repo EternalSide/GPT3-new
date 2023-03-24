@@ -3,7 +3,12 @@ import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.svg';
 import './navbar.css';
 
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 const Menu = () => {
  return (
   <div className='gpt3__navbar-links_container'>

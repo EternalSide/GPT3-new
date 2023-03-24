@@ -26,11 +26,11 @@
 
 
 .gp3__cta-btn{
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left:2rem;
+
 }
 
 .gp3__cta-btn button{
@@ -48,6 +48,10 @@ cursor: pointer;
 min-width:150px;
 }
 
+.gp3__cta-btn button:hover{
+    transition: .5s;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 @media screen and (max-width: 650px) {
     .gpt3__cta{
         flex-direction: column;
